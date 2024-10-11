@@ -1,0 +1,42 @@
+.gs-header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: var(--gs-header-size);
+    background-color: var(--gs-color-gray);
+    display: flex;
+}
+
+.header-content{
+    width: 100%;
+    padding: 5px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content > h2 {
+    font-weight: 800;
+    color: var(--gs-color-primary);
+    font-size: 1.8rem;
+}
+
+.navbar > .nav-links{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.navbar > .nav-links > a{
+    text-decoration: none;
+    color: var(--gs-color-black);
+    font-weight: 600;
+    font-size: 18px;
+    transition: all ease 0.5s;
+}
+
+.navbar > .nav-links > a:hover{
+    color: var(--gs-color-primary);
+}
