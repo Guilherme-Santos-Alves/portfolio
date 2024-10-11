@@ -1,3 +1,76 @@
 #home{
     background-image: url(../../assets/background/background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 20%;
+}
+
+#home > .home-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#home > .home-content > .intro{
+    display: flex;
+}
+
+#home > .home-content > .intro > .intro1{
+    background-color: var(--gs-color-primary);
+    color: var(--gs-color-gray-lighter);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#home > .home-content > .intro > .intro2{
+    color: var(--gs-color-black);
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#home > .home-content > .desc > .name{
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+#home > .home-content > .desc > .role{
+    font-size: 2.85rem;
+    font-weight: 800;
+}
+
+#home > .home-content > .desc > .role > .role2{
+    color: var(--gs-color-primary);
+}
+
+#home > .home-content > .redirect-btns{
+    display: flex;
+    gap: 20px;
+}
+
+#home > .home-content > .redirect-btns > a{
+    padding: 8px 16px;
+    background-color: var(--gs-color-primary);
+    border-radius: 5px;
+    text-decoration: none;
+    color: var(--gs-color-gray-lighter);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    transition: all ease 0.3s;
+}
+
+#home > .home-content > .redirect-btns > a:hover{
+    opacity: 0.8;
+}
+
+#home > .home-content > .redirect-btns > .contact-btn{
+    gap: 15px;
 }

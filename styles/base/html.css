@@ -1,5 +1,4 @@
 html{
     background-color: var(--gs-color-gray);
     font-family: var(--gs-font-primary);
-    margin-top: var(--gs-header-size);
 }
