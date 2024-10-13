@@ -1,0 +1,71 @@
+#projects{
+    padding: 60px 15%;
+}
+
+#projects > .projects-content > .projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+    
+}
+
+#projects > .projects-content > .projects > .project{
+    max-width: 350px;
+    min-width: 100%;
+    min-height: 375px;
+    max-height: 375px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.project > .project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.project > .layer {
+    background-color: var(--gs-color-primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.project:hover > .layer {
+    opacity: 1;
+    visibility: visible;
+}
+
+.layer > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: default;
+}
+.layer > a > i{
+    color: var(--gs-color-primary);
+    font-size: 1rem;
+    background-color: var(--gs-color-black);
+    border-radius: 50px;
+    padding: 15px;
+    cursor: pointer;
+}
+

@@ -6,6 +6,7 @@
     height: var(--gs-header-size);
     background-color: var(--gs-color-gray);
     display: flex;
+    z-index: 2000;
 }
 
 
@@ -47,4 +48,5 @@
 
 .navbar > .nav-links > a:hover{
     color: var(--gs-color-primary);
+    transform: translateY(-2px);
 }

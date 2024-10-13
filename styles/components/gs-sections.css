@@ -5,5 +5,4 @@
 
 .gs-sections section{
     padding-top: var(--gs-header-size);
-    height: 100vh;
 }
