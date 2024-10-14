@@ -11,6 +11,22 @@
     
 }
 
+.projects-content > .title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.projects-content > .title > span{
+    color: var(--gs-color-black);
+    font-size: var(--gs-font-title-size);
+    font-weight: 800;
+}
+
+.projects-content > .title > .title2{
+    color: var(--gs-color-primary);
+}
+
 #projects > .projects-content > .projects > .project{
     max-width: 350px;
     min-width: 100%;
@@ -21,6 +37,7 @@
     transition: transform 0.5s;
     position: relative;
     overflow: hidden;
+    box-shadow: rgba(11, 11, 11, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .project > .project-img {
@@ -69,3 +86,14 @@
     cursor: pointer;
 }
 
+.layer > .project-name{
+    display: flex;
+    justify-content: center;
+}
+
+.layer > .project-desc{
+    color: var(--gs-color-gray-lighter);
+    font-size: 1rem;
+    padding: 3px;
+    text-align: center;
+}
