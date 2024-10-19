@@ -1,0 +1,36 @@
+#about{
+    background-color: var(--gs-color-gray-lighter);
+    min-height: 100vh;
+    padding: 0px 20%;
+}
+
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+.about-content > .right > .title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-content > .right > .title > span{
+    color: var(--gs-color-black);
+    font-size: var(--gs-font-title-size);
+    font-weight: 800;
+}
+
+.about-content > .right > .title > .title2{
+    color: var(--gs-color-primary);
+}
+
+.about-content > .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
