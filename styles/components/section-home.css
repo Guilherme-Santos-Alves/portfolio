@@ -56,7 +56,8 @@
 }
 
 #home > .home-content > .redirect-btns > a{
-    padding: 8px 16px;
+    width: 150px;
+    padding: 8px;
     background-color: var(--gs-color-primary);
     border-radius: 5px;
     text-decoration: none;
@@ -64,6 +65,7 @@
     font-size: 1.2rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     transition: all ease 0.3s;
 }
 
@@ -72,5 +74,9 @@
 }
 
 #home > .home-content > .redirect-btns > .contact-btn{
+    gap: 15px;
+}
+
+#home > .home-content > .redirect-btns > .curriculum-btn{
     gap: 15px;
 }
