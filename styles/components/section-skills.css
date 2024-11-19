@@ -1,0 +1,44 @@
+#skills{
+    background-color: var(--gs-color-gray-lighter);
+    width: 100%;
+
+}
+
+#skills > .services-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#skills > .services-content > .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    max-height: 300px;
+    min-height: 200px;
+    text-align: center;
+    background: var(--gs-color-gray);
+    padding: 35px 45px;
+    border-radius: 8px;
+    transition: all .45s ease;
+}
+
+#skills > .services-content > .box:hover{
+    transform: translateY(-8px);
+}
+
+#skills > .services-content > .box h3{
+    color: var(--gs-color-black);
+}
+
+#skills > .services-content > .box > .s-icons i {
+    font-size: 36px;
+    color: var(--gs-color-primary);
+}
+
