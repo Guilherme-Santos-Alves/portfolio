@@ -1,7 +1,24 @@
 #skills{
     background-color: var(--gs-color-gray-lighter);
     width: 100%;
+    padding: 20px 0px;
+}
 
+#skills > .title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#skills > .title > span{
+    color: var(--gs-color-black);
+    font-size: var(--gs-font-title-size);
+    font-weight: 800;
+}
+
+#skills > .title > .title2{
+    color: var(--gs-color-primary);
 }
 
 #skills > .services-content {
