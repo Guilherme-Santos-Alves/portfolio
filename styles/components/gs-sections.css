@@ -1,8 +1,9 @@
 .gs-sections{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .gs-sections section{
-    padding-top: var(--gs-header-size);
+    padding: 160px 15% 120px;
 }
