@@ -1,51 +1,74 @@
-.gs-header{
+header {
     position: fixed;
-    right: 0;
+    width: 100%;
     top: 0;
-    width: 100%;
-    height: var(--gs-header-size);
-    background-color: var(--gs-color-gray);
-    display: flex;
-    z-index: 2000;
-}
-
-.gs-header> .header-content{
-    width: 100%;
-    padding: 5px 20%;
+    right: 0;
+    z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: transparent;
+    padding: 22px 15%;
+    border-bottom: 1px solid transparent;
+    transition: all .45s ease;
 }
 
-.gs-header > .header-content > .name > .name1 {
-    font-weight: 800;
+header.sticky {
+    background: var(--gs-color-gray);
+    border-bottom: 1px solid #ffffff1a;
+    padding: 12px 15%;
+    height: 10vh;
+}
+
+header span{
     color: var(--gs-color-primary);
-    font-size: 1.8rem;
 }
 
-.gs-header > .header-content > .name > .name2 {
-    font-weight: 800;
-    color: var(--gs-color-black);
-    font-size: 1.8rem;
-}
-
-.gs-header > .header-content > .navbar > .nav-links{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    list-style: none;
-}
-
-.gs-header > .header-content > .navbar > .nav-links > a{
+.logo {
+    color: var(--text-color);
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
     text-decoration: none;
-    color: var(--gs-color-black);
-    font-weight: 600;
-    font-size: 18px;
-    transition: all ease 0.5s;
 }
 
-.gs-header > .header-content > .navbar > .nav-links > a:hover{
-    color: var(--gs-color-primary);
-    transform: translateY(-2px);
+.navlist {
+    display: flex;
+}
+
+
+#menu-icon {
+    font-size: 35px;
+    color: var(--text-color);
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
+}
+
+.bx {
+    font-family: boxicons !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navlist a {
+    color: var(--gs-color-black);
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 25px;
+    transition: all .45s ease;
+    text-decoration: none;
+}
+
+.navlist li {
+    list-style: none;
 }
