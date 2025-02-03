@@ -8,6 +8,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 #about > .about-content > .right > .title > span{

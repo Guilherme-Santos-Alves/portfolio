@@ -25,28 +25,23 @@ header span{
 }
 
 .logo {
-    color: var(--text-color);
+    color: var(--gs-color-black);
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 1px;
     text-decoration: none;
 }
 
-.navlist {
+.navlist{
     display: flex;
 }
 
 
-#menu-icon {
-    font-size: 35px;
-    color: var(--text-color);
-    z-index: 10001;
-    cursor: pointer;
-    margin-left: 25px;
-    display: none;
+.navlist li{
+    list-style: none;
 }
 
-.navlist a {
+.navlist a{
     color: var(--gs-color-black);
     font-size: 17px;
     font-weight: 600;
@@ -55,6 +50,19 @@ header span{
     text-decoration: none;
 }
 
-.navlist li {
-    list-style: none;
+.navlist a:hover{
+    color: var(--gs-color-primary);
+}
+
+.navlist a.active{
+    color: var(--gs-color-primary);
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: var(--gs-color-black);
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display: none;
 }

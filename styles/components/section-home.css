@@ -39,7 +39,7 @@ section{
 }
 
 .home-text h1{
-    font-size: 5rem;
+    font-size: var(--gs-font-big-name);
     font-weight: 800;
     color: var(--gs-color-black);
     line-height: 1.1;

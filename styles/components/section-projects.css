@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    font-size: var(--gs-font-title-size);
 }
 
 #projects > .title > span{

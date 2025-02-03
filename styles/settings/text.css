@@ -1,4 +1,21 @@
 :root{
     --gs-font-primary: "Lato", serif;
-    --gs-font-title-size: 3rem;
+    --gs-font-title-size: 3.2rem;
+    --gs-font-big-name: 5rem;
+}
+
+@media (max-width: 1200px){
+    :root{
+        --gs-font-title-size: 3rem;
+        --gs-font-big-name: 4.2rem;
+    }
+
+}
+
+@media (max-width: 800px){
+    :root{
+        --gs-font-title-size: 2.7rem;
+        --gs-font-big-name: 3.7rem;
+    }
+
 }
