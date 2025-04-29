@@ -85,12 +85,12 @@ section{
 }
 
 .button a{
-    font-size: 18px;
+    font-size: 22px;
     text-decoration: none;
 }
 
 .button i{
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .button span{
@@ -99,9 +99,9 @@ section{
 
 .btn{
     display: inline-block;
-    padding: 12px 28px;
+    padding: 15px 40px;
     background-color: var(--gs-color-primary);
-    border-radius: 5px;
+    border-radius: 8px;
     color: var(--gs-color-black);
     font-size: 1rem;
     letter-spacing: 1px;

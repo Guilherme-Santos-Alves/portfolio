@@ -40,11 +40,11 @@
 
 @media (max-width: 920px){
 
-    .about{
+    .about-content{
         grid-template-columns: 1fr;   
     }
 
-    .about-img{
+    .about-content > .left > .photo-content > img{
         display: none;
     }
 
@@ -52,6 +52,7 @@
         text-align: center;
     }
 }
+
 
 @media (max-width: 800px){
 
