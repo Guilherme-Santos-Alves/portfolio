@@ -1,12 +1,7 @@
 .end {
     padding: 20px !important;
-    background-color: var(--darkreader-bg--bg-color, #181a1b);
 }
-@media (max-width: 1480px) {
-    .end {
-        padding: 15px 3%;
-    }
-}
+
 .end {
     letter-spacing: 1px;
     text-align: center;
@@ -16,16 +11,22 @@
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
-    background-color: var(--bg-color);
+    background-color: var(--gs-color-gray);
 }
-@media (max-width: 1480px) {
-    section {
-        padding: 110px 3% 60px;
-    }
-}
-
 
 .last-text p {
     color: var(--gs-color-black);
     font-size: 1.1rem;
+}
+
+@media (max-width: 1480px) {
+    .end {
+        padding: 15px 3%;
+    }
+}
+
+@media (max-width: 1380px){
+    .end{
+        padding: 15px 3%;
+    }
 }

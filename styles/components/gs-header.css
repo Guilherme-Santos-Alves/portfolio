@@ -66,3 +66,52 @@ header span{
     margin-left: 25px;
     display: none;
 }
+
+@media (max-width: 1380px){
+    header{
+        padding: 12px 2.5%;
+        transition: .1s;
+    }
+
+    header.sticky{
+        padding: 10px 2.5%;
+        transition: .1s;
+    }
+}
+
+@media (max-width: 800px){
+
+    #menu-icon{
+        display: block;
+    }
+
+    .navlist{
+        position: absolute;
+        top: -1000px;
+        right: 0;
+        left: 0;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--gs-color-gray);
+        text-align: center;
+        justify-content: center;
+        transition: all .45s ease;
+    }
+
+    .navlist a{
+        display: block;
+        margin: 17px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--text-color);
+    }
+
+    .navlist a:hover{
+        color: var(--main-color);
+    }
+
+    .navlist.open{
+        top: 100%
+    }
+}

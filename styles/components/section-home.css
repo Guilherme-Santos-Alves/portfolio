@@ -178,3 +178,44 @@ section{
 .btn-socials span i:hover{
     transform: scale(0.9);
 }
+
+@media (max-width: 1100px){
+    .home-text h3{
+        font-size: 1.6rem;
+    }
+
+    .home{
+        height: 87vh;
+    }
+}
+
+@media (max-width: 800px){
+    .home{
+        position: relative;
+        height: 87vh;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .btn{
+        font-size: 0.7rem;
+    }
+
+    .home{
+        height: 100vh;
+    }
+
+    .home-text p{
+        color: var(--gs-color-black);
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
