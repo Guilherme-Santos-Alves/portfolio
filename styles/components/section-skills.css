@@ -60,3 +60,11 @@
     color: var(--gs-color-primary);
 }
 
+
+#skills > .services-content > .box > .s-icons svg {
+    height: 36px;
+    width: 36px;
+    font-weight: bold;
+}
+
+
