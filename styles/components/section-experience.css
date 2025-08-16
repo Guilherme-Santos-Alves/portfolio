@@ -1,0 +1,69 @@
+#experience{
+    background-color: var(--gs-color-gray-lighter);
+}
+
+#experience> .title{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#experience  .title > span {
+    color: var(--gs-color-black);
+    font-size: var(--gs-font-title-size);
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+#experience  .title > .title2 {
+    color: var(--gs-color-primary);
+}
+
+#experience> .timeline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#experience> .timeline> .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+#experience> .timeline> .container> .container img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    top: 32px;
+    margin: 2rem;
+}
+
+#experience> .timeline> .container> .text-box{
+    padding: 20px 20px;
+    background: var(--bg-color);
+    border-radius: 10px;
+    color: var(--text-color);
+    width: 60vw;
+}
+
+#experience> .timeline> .container> .text-box h5{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#experience> .timeline> .container> .text-box small{
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#experience> .timeline> .container> .text-box p{
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-size: var(--p-font);
+    margin: 1rem 0;
+}

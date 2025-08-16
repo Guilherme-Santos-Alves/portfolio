@@ -28,7 +28,7 @@ section{
     font-weight: 600;
     border-radius: 5px;
     background: var(--gs-color-primary);
-    color: var(--gs-color-black);
+    color: var(--gs-color-gray-lighter);
 }
 
 .two{
@@ -102,7 +102,7 @@ section{
     padding: 15px 40px;
     background-color: var(--gs-color-primary);
     border-radius: 8px;
-    color: var(--gs-color-black);
+    color: var(--gs-color-gray-lighter);
     font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 600;
