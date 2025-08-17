@@ -14,7 +14,7 @@
 
 @media (max-width: 800px){
     :root{
-        --gs-font-title-size: 2.7rem;
+        --gs-font-title-size: 2.5rem;
         --gs-font-big-name: 3.7rem;
     }
 

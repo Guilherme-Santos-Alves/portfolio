@@ -34,7 +34,7 @@
     margin: 3rem 0;
 }
 
-#experience> .timeline> .container> .container img{
+#experience> .timeline> .container img{
     width: 120px;
     height: 120px;
     border-radius: 50%;
@@ -44,9 +44,9 @@
 
 #experience> .timeline> .container> .text-box{
     padding: 20px 20px;
-    background: var(--bg-color);
+    background: var(--gs-color-gray);
     border-radius: 10px;
-    color: var(--text-color);
+    color: var(--gs-color-black);
     width: 60vw;
 }
 
@@ -54,11 +54,21 @@
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
+    color: var(--gs-color-black);
+}
+
+#experience> .timeline> .container> .text-box h5 span b{
+    color: var(--gs-color-primary);
 }
 
 #experience> .timeline> .container> .text-box small{
     font-size: 14px;
     font-weight: 800;
+    color: var(--gs-color-black);
+}
+
+#experience> .timeline> .container> .text-box span{
+    color: var(--gs-color-primary);
 }
 
 #experience> .timeline> .container> .text-box p{
@@ -66,4 +76,16 @@
     line-height: 1.8;
     font-size: var(--p-font);
     margin: 1rem 0;
+}
+
+@media screen and (max-width: 600px) {
+    .text-box {
+        width: 100%;
+    }
+
+    .container img {
+        width: 100px !important;
+        height: 100px !important;
+        object-fit: cover;
+    }
 }
